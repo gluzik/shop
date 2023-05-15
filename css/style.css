@@ -1,0 +1,364 @@
+:root {
+    --dark-blue: #222222;
+    --pink: #F1E4E6;
+    --dark-pink: #F16D7F;
+    --brown: #474040;
+    --gray: #F8F8F8;
+    --black: #000000;
+}
+
+body {
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.container {
+    width: 1138px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
+
+.header {
+    background-color: var(--dark-blue);
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 75px;
+}
+
+.header__navigation {
+    display: none;
+}
+
+.header__button {
+    background-color: transparent;
+    border: none;
+    margin: 0 34px 0 0;
+}
+
+.header__logo {
+    margin: 0 10px 0 0;
+}
+
+.header__person-link {
+    margin: 0 34px 0 0;
+}
+
+.brand {
+    display: flex;
+    margin: 0 0 63px;
+}
+
+.brand__title {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+}
+
+.brand__title-wrapper {
+    padding: 0 0 0 91px;
+    flex-grow: 1;
+    background-color: var(--pink);
+    display: flex;
+    align-items: center;
+}
+
+.brand__subtitle {
+    display: block;
+
+    font-size: 37px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+.brand__subtitle-pink {
+    color: var(--dark-pink);
+}
+
+.offers__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.offers__item {
+    color: white;
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--brown);
+    margin: 0 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offers__title {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.offers__info {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F16D7F;
+}
+
+.offers__item--woman {
+    background-image: url(../img/oferts-woman.jpg);
+}
+
+.offers__item--man {
+    background-image: url(../img/oferts-man.jpg)
+}
+
+.offers__item--kds {
+    background-image: url(../img/oferts-kids.jpg);
+}
+
+.offers__item--accesories {
+    background: url(../img/oferts-accsesuaris.jpg) no-repeat;
+    background-size: cover;
+}
+
+.offers__item--accesories {
+    width: 100%;
+    margin: 0;
+}
+
+.products {
+    margin: 96px 0 0 0;
+}
+
+.products__title {
+    text-align: center;
+}
+
+.products__header {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #222222;
+    margin-bottom: 6px;
+}
+
+.products__header-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #9F9F9F;
+}
+
+.products__cart-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 48px 0 0 0;
+}
+
+.products__cart-item {
+    width: 360px;
+    min-height: 260px;
+    background-color: var(--gray);
+    margin: 0 0 30px 0;
+}
+
+.product__cart-title {
+    margin: 25px 0 12px 18px;
+    text-transform: uppercase;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.product__cart-p {
+    margin: 0 28px 18px 16px;
+    max-width: 314px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5D5D5D;
+}
+
+.product__price {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0 0 20px 18px;
+    color: #F16D7F;
+}
+
+.product__button {
+    display: flex;
+    justify-content: center;
+}
+
+.product__button-text {
+    border: 1px solid #FF6A6A;
+    padding: 14.5px 38.5px 13.5px 38.5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #F26376;
+}
+
+.advantages {
+    margin: 95px 0 0 0;
+    background-color: #222224;
+    height: 341px;
+}
+
+.advantages__place {
+    display: flex;
+    padding: 130px 230px 104px 230px;
+}
+
+.advantages__place-text {
+    width: 360px;
+}
+
+.advantages__place-title {
+    font-weight: 400;
+    font-size: 19.96px;
+    line-height: 24px;
+    padding: 28px 0 16px 0;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.advantages__place-img {
+    padding-left: 158px;
+}
+
+.advantages__place-p {
+    font-weight: 300;
+    font-size: 13.972px;
+    width: 360px;
+    line-height: 17px;
+    text-align: center;
+    color: #FBFBFB;
+}
+
+.subscriber {
+    background: url(../img/subscriber.jpg) no-repeat;
+    height: 448px;
+    background-size: cover;
+}
+
+.subscriber__places {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscriber__places-author {
+    padding: 97px 0 0 0;
+    width: 1600px;
+    display: flex;
+}
+
+.qwe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.subscriber__places-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    width: 360px;
+    color: #222224;
+}
+
+.subscriber__places-email {
+    margin: 150px 0 0 0;
+}
+
+.subscriber__places-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.subscriber__places-p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 557px;
+}
+
+.subscriber__input {
+    margin: 32px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.subscriber__input-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #222224;
+    opacity: 0.67;
+}
+
+.footer__down {
+    background-color: #222224;
+    height: 79px;
+}
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copy {
+    padding: 30px 0 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.footer__contackt {
+    padding: 24px 0 0 0;
+    display: flex;
+}
+
+.footer__contackt-item {
+    margin: 0 7.29px 0 0;
+}
