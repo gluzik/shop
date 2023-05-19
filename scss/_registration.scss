@@ -1,0 +1,110 @@
+.registration {
+    min-height: 148px;
+    background: #F8F3F4;
+
+
+    &__block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        padding: 60px 0 60px 0;
+        color: #F16D7F;
+    }
+
+    &__section {
+        min-height: 675px;
+    }
+
+    &__form {
+        padding-top: 64px;
+        width: 360px;
+    }
+
+    &__heading {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        padding: 0 0 20.5px;
+        color: #222222;
+    }
+
+    &__text {
+        width: 360px;
+        height: 45px;
+        margin-bottom: 20px;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        padding-left: 17px;
+        color: #B1B1B1;
+        border: 1px solid #A4A4A4;
+    }
+
+    &__radio-list {
+        padding: 20px 0 33px;
+    }
+
+    &__radio {
+        border: 1px solid #A4A4A4;
+    }
+
+    &__label {
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 13px;
+        color: #000000;
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        padding-bottom: 39px;
+        color: #B1B1B1;
+    }
+
+    &__button {
+        width: 167px;
+        padding: 16px 66px 17px 29px;
+        border: none;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        background: #F16D7F;
+    }
+
+    &__info {
+        width: 652px;
+        margin-top: 64px;
+    }
+
+    &__info-heading {
+        margin-bottom: 22px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    &__info-subtitle {
+        margin-bottom: 21px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+
+    &__info-desc {
+        margin-bottom: 16px;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+}

@@ -1,0 +1,100 @@
+.subscriber {
+    background: url(../img/subscriber.jpg) no-repeat;
+    height: 448px;
+    background-size: cover;
+
+
+    &__places {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__places-author {
+        padding: 97px 0 0 0;
+        width: 1600px;
+        display: flex;
+    }
+
+    &__image {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+
+    &__places-text {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        width: 360px;
+        color: #222224;
+    }
+
+    &__places-email {
+        margin: 150px 0 0 0;
+    }
+
+    &__places-title {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    &__places-p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 557px;
+    }
+
+    &__input {
+        margin: 32px 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__input-text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        color: #222224;
+        opacity: 0.67;
+    }
+}
+
+.footer {
+
+    &__down {
+        background-color: #222224;
+        height: 79px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__copy {
+        padding: 30px 0 0 0;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FBFBFB;
+    }
+
+    &__contackt {
+        padding: 24px 0 0 0;
+        display: flex;
+    }
+
+    &__contackt-item {
+        margin: 0 7.29px 0 0;
+    }
+}
